@@ -6,14 +6,6 @@ import CategoryCard from "@/components/CategoryCard";
 import love_black from "../public/love-black.svg";
 import love_white from "../public/love-white.svg";
 import Rocket from "../public/Rocket.svg";
-import Polish from "../public/Polish.svg";
-import Flash from "../public/Flash.svg";
-import Sparkles from "../public/Sparkles.svg";
-import Developer from "../public/Developer.svg";
-import Weeb from "../public/Weeb.svg";
-// import Weeb from "../public/Weeb.svg";
-import laptopLight from "../public/laptopLight.svg";
-import laptopBlack from "../public/laptopBlack.svg";
 import { useEffect } from "react";
 
 export default function About() {
@@ -108,7 +100,7 @@ export default function About() {
               </a>{" "}
               or <span className="text-blue-700 font-bold">LinkedIn</span>{" "}
               <a
-                href="http://linkedin.com/in/pranjalshikhar"
+                href="http://linkedin.com/in/usman1337"
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 rel="noopener noreferrer"
                 target="blank"
