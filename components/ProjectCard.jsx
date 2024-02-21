@@ -1,5 +1,5 @@
 import Image from "next/image";
-import aizen from "../public/aizen.jpg";
+// import aizen from "../public/aizen.jpg";
 import kamui from "../public/kamui.jpg";
 import pokedex from "../public/pokedex.jpg";
 import portfolio from "../public/portfolio.jpg";
@@ -16,10 +16,26 @@ const ProjectCard = () => {
   const data = [
     {
       id: 1,
-      image: aizen,
-      title: "IVoting",
-      description: "Internet Voting using secure encription and Blockchain.",
-      link: "/work/ivoting",
+      image: extrahour,
+      title: "WorkAspro",
+      description: "Decentralized Freelancing platform.",
+      link: "/work/workaspro",
+      target: "_self",
+    },
+    {
+      id: 11,
+      image: extrahour,
+      title: "ManiaLand",
+      description: "NFT martketplace",
+      link: "/work/manialand",
+      target: "_self",
+    },
+    {
+      id: 10,
+      image: extrahour,
+      title: "GSU",
+      description: "Stable Coin",
+      link: "/work/gsu",
       target: "_self",
     },
     {
@@ -29,6 +45,23 @@ const ProjectCard = () => {
       description:
         "concept of merging precious metals with Decentralized Finance (DeFi) systems",
       link: "/work/dably",
+      target: "_self",
+    },
+    {
+      id: 12,
+      image: kamui,
+      title: "IVoting",
+      description: "Internet Voting using secure encription and Blockchain.",
+      link: "/work/ivoting",
+      target: "_self",
+    },
+    {
+      id: 8,
+      image: extrahour,
+      title: "EMS",
+      description:
+        "Ensuring Secure Voting for Overseas Pakistanis: Inside the Heart of EMS",
+      link: "/work/ems",
       target: "_self",
     },
     {
@@ -46,15 +79,6 @@ const ProjectCard = () => {
       description: "Portfolio made using NextJS and Tailwind CSS",
       link: "",
       target: "",
-    },
-    {
-      id: 8,
-      image: extrahour,
-      title: "EMS",
-      description:
-        "Ensuring Secure Voting for Overseas Pakistanis: Inside the Heart of EMS",
-      link: "/work/ems",
-      target: "_self",
     },
     {
       id: 9,
